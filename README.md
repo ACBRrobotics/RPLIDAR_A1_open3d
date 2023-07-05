@@ -3,7 +3,7 @@ A simple Python script integrating the RPLIDAR A1 LiDAR with the popular open3d 
 
 The RPLIDAR A1:
 
-![RPLIDAR2](https://github.com/ACBRrobotics/RPLIDAR_A1_open3d/assets/60329456/6de532bc-83a3-4d76-8176-c9b38991d570  | width=200)
+<img src="https://github.com/ACBRrobotics/RPLIDAR_A1_open3d/assets/60329456/6de532bc-83a3-4d76-8176-c9b38991d570" width="200" height="100">
 
 Sample Program Output:
 
