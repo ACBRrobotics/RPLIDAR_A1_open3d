@@ -3,13 +3,13 @@ from rplidar import RPLidar
 import numpy as np
 import time
 
-# Callback function to process each lidar measurement
+# Callback function to process the lidar data as it comes in
 def process_lidar_measurement(measurement):
     # Extract the angle and distance from the measurement
     angle = measurement[1]
     distance = measurement[2]
 
-    # Convert polar coordinates to Cartesian coordinates (assuming z=0 for a 2D lidar)
+    # Convert polar coordinates to Cartesian coordinates (we are assuming z=0 for a 2D RPLIDAR A1)
     x = distance * np.cos(np.radians(angle))
     y = distance * np.sin(np.radians(angle))
 
@@ -22,14 +22,11 @@ lidar = RPLidar('/dev/ttyUSB0')  # Replace with the appropriate serial port of y
 # Initialize an empty list to store the lidar measurements
 lidar_data = []
 
-# Set the distance threshold for the warning system
-warning_distance = 0.5  # Adjust this value based on your requirements
-
-# Start lidar scanning
+# Start scanning with the RPLIDAR A1
 lidar.start_motor()
 lidar.connect()
 
-# Add delay to allow the device to initialize properly
+# Add delay to allow the device to initialize safely
 time.sleep(2)
 
 # Create an Open3D visualizer
@@ -79,7 +76,7 @@ for scan in lidar.iter_scans():
     # Clear the lidar data for the next iteration
     lidar_data.clear()
 
-    # Clear previous visualized geometries and add the updated point cloud
+    # Clear previous visualized plots and add the updated point cloud
     visualizer.clear_geometries()
     visualizer.add_geometry(point_cloud)
 
