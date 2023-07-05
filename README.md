@@ -24,6 +24,7 @@ To make sure your LiDAR can be accessed via serial, be sure to type:
 
 Reboot your computer, and start playing around with your LiDAR point cloud data! Remember to change your COM port if you have more than one serial device plugged into your computer, or are working in a Windows environment.
 
-Additionally:  A robot chassis was designed for this project to facilitate further exploration of LiDAR data for more advanced robotics projects, the .DXF files necessary to edit or fabricate the robot chassis are located in this repository. 
+## Additionally:  
+A robot chassis was designed for this project to facilitate further exploration of LiDAR data for more advanced robotics projects, the .DXF files necessary to edit or fabricate the robot chassis are located in this repository. 
 
 <img src="https://github.com/ACBRrobotics/RPLIDAR_A1_open3d/assets/60329456/918dd350-42b0-45ef-9bd3-1d6bac734509" width="300" height="200">
