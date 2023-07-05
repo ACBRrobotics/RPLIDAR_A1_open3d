@@ -13,4 +13,6 @@ To make sure your LiDAR cane be accessed via serial, type:
 
 `$ sudo usermod -a -G dialout <insert your username>`
 
-Reboot your computer, and start playing around with your LiDAR point cloud data! Remember to change your COM port if you have more than one serial devices plugged into your computer, or are working in a windows environment.
+Reboot your computer, and start playing around with your LiDAR point cloud data! Remember to change your COM port if you have more than one serial device plugged into your computer, or are working in a Windows environment.
+
+Additionally:  A robot chassis was designed for this project to facilitate further exploration of LiDAR data for more advanced robotics projects, the .DXF files necessary to edit or fabricate the robot chassis are located in this repository. 
