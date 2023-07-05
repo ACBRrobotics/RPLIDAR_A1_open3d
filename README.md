@@ -1,5 +1,5 @@
 # RPLIDAR_A1_open3d
-A simple Python script integrating the RPLIDAR A1 LiDAR with the popular open3d point cloud library.  The live LiDAR data is read and visualized in an open3d window.  The point cloud data is then analyzed to find the point in the point cloud nearest to the lidar, and its angle and distance from the LiDAR are measured.
+A simple Python script integrating the RPLIDAR A1 LiDAR with the popular open3d point cloud library.  This software was developed in conjunction with a research paper entitled "A novel integration of open3D and two-dimensional LiDAR for educational robotics".  The paper in its entirety can be found in this repository.  When running RPLIDAR_A1_open3d.py The live LiDAR data from the RPLIDAR A1 LiDAR is read and visualized in an open3d window.  The point cloud data is then analyzed to find the point in the point cloud nearest to the lidar, and its angle and distance from the LiDAR are measured.
 
 The RPLIDAR A1:
 
