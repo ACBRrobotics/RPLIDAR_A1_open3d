@@ -13,4 +13,4 @@ To make sure your LiDAR cane be accessed via serial, type:
 
 `$ sudo usermod -a -G dialout <insert your username>`
 
-Reboot your computer, and start playing around with your LiDAR point cloud data! Remember to change your COM port if you have more than one serial devices plugged into your computer, or are working in a windows environment
+Reboot your computer, and start playing around with your LiDAR point cloud data! Remember to change your COM port if you have more than one serial devices plugged into your computer, or are working in a windows environment.
