@@ -9,7 +9,8 @@ def process_lidar_measurement(measurement):
     angle = measurement[1]
     distance = measurement[2]
 
-    # Convert polar coordinates to Cartesian coordinates (we are assuming z=0 for a 2D RPLIDAR A1)
+    # Convert polar coordinates to Cartesian coordinates 
+    # we are assuming z=0 for our 2D RPLIDAR A1
     x = distance * np.cos(np.radians(angle))
     y = distance * np.sin(np.radians(angle))
 
@@ -19,10 +20,13 @@ def process_lidar_measurement(measurement):
 # Create an instance of the RPLidar class
 # Replace '/dev/ttyUSB0' with the serial port of your Rplidar A1
 # On a Windows device it may look something like 'COM6'
-lidar = RPLidar('/dev/ttyUSB0')  
+lidar = RPLidar('COM6')  
 
 # Initialize an empty list to store the lidar measurements
 lidar_data = []
+
+# Set the distance threshold for the warning system
+warning_distance = 0.5  # This value can be adjusted as needed
 
 # Start scanning with the RPLIDAR A1
 lidar.start_motor()
