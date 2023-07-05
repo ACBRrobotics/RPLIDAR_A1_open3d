@@ -12,7 +12,7 @@ Sample Point Cloud and Python Terminal Output:
 
 This script has been tested in both Linux and Windows environments.  
 
-To install the dependencies open a terminal and type: 
+## To install the dependencies open a terminal and type: 
 
 `$ pip install rplidar-roboticia`
 
