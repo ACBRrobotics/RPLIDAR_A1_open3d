@@ -3,12 +3,12 @@ A simple Python script integrating the RPLIDAR A1 LiDAR with the popular open3d 
 
 The RPLIDAR A1:
 
-<img src="https://github.com/ACBRrobotics/RPLIDAR_A1_open3d/assets/60329456/6de532bc-83a3-4d76-8176-c9b38991d570" width="200" height="100">
+<img src="https://github.com/ACBRrobotics/RPLIDAR_A1_open3d/assets/60329456/6de532bc-83a3-4d76-8176-c9b38991d570" width="400" height="200">
 
 Sample Program Output:
 
-![open3D_From_LattePanda_Alpha](https://github.com/ACBRrobotics/RPLIDAR_A1_open3d/assets/60329456/60b4d4fa-b202-4bb1-a0ed-eef5b0f8ba59  | width=100)
-![python Output two](https://github.com/ACBRrobotics/RPLIDAR_A1_open3d/assets/60329456/bb58f3c7-d0fb-4e83-bea1-2c9476cb2493  | width=100)
+<img src="https://github.com/ACBRrobotics/RPLIDAR_A1_open3d/assets/60329456/60b4d4fa-b202-4bb1-a0ed-eef5b0f8ba59" width="200" height="200")
+<img src="https://github.com/ACBRrobotics/RPLIDAR_A1_open3d/assets/60329456/bb58f3c7-d0fb-4e83-bea1-2c9476cb2493  width="200" height="200")
 
 
 This script has been tested in both Linux and Windows environments.  
@@ -27,4 +27,4 @@ Reboot your computer, and start playing around with your LiDAR point cloud data!
 
 Additionally:  A robot chassis was designed for this project to facilitate further exploration of LiDAR data for more advanced robotics projects, the .DXF files necessary to edit or fabricate the robot chassis are located in this repository. 
 
-![Screenshot 2023-07-04 124439](https://github.com/ACBRrobotics/RPLIDAR_A1_open3d/assets/60329456/918dd350-42b0-45ef-9bd3-1d6bac734509  | width=100)
+<img src="https://github.com/ACBRrobotics/RPLIDAR_A1_open3d/assets/60329456/918dd350-42b0-45ef-9bd3-1d6bac734509" width="200" height="200")
