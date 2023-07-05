@@ -17,7 +17,9 @@ def process_lidar_measurement(measurement):
     lidar_data.append([x, y, 0])  # Assuming z=0 for a 2D lidar
 
 # Create an instance of the RPLidar class
-lidar = RPLidar('/dev/ttyUSB0')  # Replace with the appropriate serial port of your Rplidar A1
+# Replace '/dev/ttyUSB0' with the serial port of your Rplidar A1
+# On a Windows device it may look something like 'COM6'
+lidar = RPLidar('/dev/ttyUSB0')  
 
 # Initialize an empty list to store the lidar measurements
 lidar_data = []
