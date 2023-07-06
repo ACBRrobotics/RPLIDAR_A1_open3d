@@ -76,6 +76,7 @@ for scan in lidar.iter_scans():
 
         # Print the distance and direction of the closest point
         print("Nearest object distance: {:.2f} millimeters".format(closest_distance))
+        print("At angle: {:.2f} degrees from origin".format(closest_distance))
         print("Direction: {}".format(direction))
         print()
 
