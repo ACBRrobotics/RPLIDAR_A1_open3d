@@ -20,7 +20,7 @@ def process_lidar_measurement(measurement):
 # Create an instance of the RPLidar class
 # Replace '/dev/ttyUSB0' with the serial port of your Rplidar A1
 # On a Windows device it may look something like 'COM6'
-lidar = RPLidar('COM6')  
+lidar = RPLidar('/dev/ttyUSB0', 115200, 10000)  
 
 # Initialize an empty list to store the lidar measurements
 lidar_data = []
