@@ -20,7 +20,7 @@ def process_lidar_measurement(measurement):
 # Create an instance of the RPLidar class
 # Replace '/dev/ttyUSB0' with the serial port of your Rplidar A1
 # On a Windows device it may look something like 'COM6'
-lidar = RPLidar('/dev/ttyUSB0', 115200, 10000)  
+lidar = RPLidar('/dev/ttyUSB0', 115200, 100)  
 
 # Initialize an empty list to store the lidar measurements
 lidar_data = []
@@ -76,7 +76,7 @@ for scan in lidar.iter_scans():
 
         # Print the distance and direction of the closest point
         print("Nearest object distance: {:.2f} millimeters".format(closest_distance))
-        print("At angle: {:.2f} degrees from origin".format(closest_distance))
+        print("At angle: {:.2f} degrees from origin".format(closest_angle))
         print("Direction: {}".format(direction))
         print()
 
