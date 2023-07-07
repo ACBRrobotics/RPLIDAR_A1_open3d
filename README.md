@@ -12,7 +12,11 @@ Sample Point Cloud and Python Terminal Output:
 
 This script has been tested in both Linux and Windows environments.  
 
-## Installing Dependencies: 
+## Installing Dependencies
+
+`$ sudo apt update`
+
+`$ sudo apt upgrade`
 
 `$ pip install rplidar-roboticia`
 
